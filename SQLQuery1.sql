@@ -108,3 +108,14 @@ BEGIN
     SELECT POWER(@base, @exponent) AS Result;
 END;
 GO
+
+EXEC HelloWorld;
+EXEC GetCurrentTime;
+EXEC GetCurrentDate;
+EXEC CalculateSum 5, 10, 15;
+EXEC CalculateMean 5, 10, 15;
+EXEC GetMaxValue 5, 10, 15;
+EXEC GetMinValue 5, 10, 15;
+EXEC GenerateLine 10, '*';
+EXEC CalculateFactorial 5;
+EXEC CalculatePower 2, 3;
